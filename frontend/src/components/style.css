@@ -1,0 +1,541 @@
+.login-container {
+  max-width: 360px;
+  padding: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group1 {
+  margin-bottom: 15px;
+}
+
+.form-group1 label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group1 input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group1 button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-group1 button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: #dc3545;
+  margin-top: 10px;
+}
+
+.signup-link {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.signup-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
+
+/* /0// */
+
+.signup-container {
+  max-width: 360px;
+  padding: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.signup-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-group button:hover {
+  background-color: #218838;
+}
+
+.login-link {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.login-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Header Styles */
+header {
+  background-color: #6c6666;
+  color: #fff; /* Text color */
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  width: 100px;
+  border-radius: 40px;
+}
+
+header nav {
+  display: flex;
+}
+
+header nav div {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+/* style.css */
+
+/* Navigation Styles */
+nav {
+  color: #fff;
+  padding: 20px;
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff; /* Text color */
+  margin-right: 20px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Media Queries for Tablet and Mobile */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav {
+    margin-top: 20px;
+  }
+}
+
+/* main */
+
+/* style.css */
+.main-container {
+  display: flex;
+  width: 95%;
+  margin: 10px;
+  /* justify-content: space-between; */
+}
+
+.link {
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  gap: 10px;
+}
+
+.link:hover {
+  background-color: #f0f0f0;
+}
+.flex {
+  display: flex;
+}
+.userName {
+  margin-left: auto;
+}
+
+/* new candidate */
+.form-container2 {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-container2 h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-group2 {
+  margin-bottom: 15px;
+}
+
+.form-group2 label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-group2 input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group2 input[type="date"] {
+  height: 38px; /* Adjust height for date input */
+}
+
+.form-group2 button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-group2 button:hover {
+  background-color: #0056b3;
+}
+
+.form2 {
+  font-size: xx-large;
+  margin-right: auto;
+  margin-left: auto;
+  font-style: italic;
+  margin-top: 20px;
+  width: 700px;
+}
+
+.left {
+  margin-right: 500px;
+}
+/* hr */
+.hr-page {
+  margin: 20px;
+}
+
+/* Style for the table */
+table {
+  width: 89%;
+  border-collapse: collapse;
+}
+
+/* Style for table header */
+th {
+  padding: 10px;
+  text-align: left;
+  background-color: #f2f2f2;
+}
+
+/* Style for table cells */
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Style for input fields */
+input[type="text"] {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style for input fields on hover/focus */
+input[type="text"]:hover,
+input[type="text"]:focus {
+  border-color: #666;
+}
+.hr-data {
+  margin-left: 20px;
+}
+
+/* style.css */
+.modal {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 20% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.employee-details p {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.contain {
+  /* margin-left: auto; */
+  height: 90vh;
+  background-image: url("https://miro.medium.com/v2/resize:fit:1400/1*5l4PGGJq2N5e9NZtIZtOmQ.jpeg");
+}
+/* ContainPage.css */
+.container {
+  /* max-width: 800px; */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.feature {
+  margin-bottom: 30px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.feature h3 {
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Hover effect */
+.feature:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: translateY(-3px);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.daily-a {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*  */
+
+/* DailyAttendance.css */
+.attendance-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.attendance-heading {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.attendance-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.attendance-table th,
+.attendance-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.attendance-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.attendance-actions button {
+  padding: 8px 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.attendance-actions button:hover {
+  background-color: #45a049;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-container {
+    margin-top: 20px;
+  }
+
+  .link {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  .userName {
+    font-size: 13px;
+    margin-top: 16px;
+  }
+
+  .contain {
+    margin-top: 20px;
+  }
+  .contain {
+    /* margin-left: auto; */
+    height: 230vh;
+    background-image: url("https://miro.medium.com/v2/resize:fit:1400/1*5l4PGGJq2N5e9NZtIZtOmQ.jpeg");
+  }
+
+  .attendance-heading {
+    font-size: 20px;
+  }
+
+  .attendance-table th,
+  .attendance-table td {
+    padding: 4px;
+    /* margin-left: -10px; */
+  }
+
+  .attendance-actions button {
+    /* padding: 6px 12px; */
+    font-size: 14px;
+  }
+  .attendance-container {
+    margin-left: -10px;
+  }
+}
+
+.contact-section {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.contact-section p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  font-size: 16px;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+}
+/* Style for the edit, delete, and update buttons */
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+
+.button-container button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.update-button {
+  background-color: #2196f3;
+  color: white;
+}
